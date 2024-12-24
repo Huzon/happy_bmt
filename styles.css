@@ -1,0 +1,137 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('file:///C:/Users/Hp/Documents/logo.img/flaring-oil-platform-rig-sea-black-white-gas-61156188.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+header {
+    background: linear-gradient(180deg, #f6ece2 ,#c6efd0);
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    /* animation: headerGlow 3s infinite alternate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+header h1{
+    font-size: 72px;
+  background: -webkit-linear-gradient( #df8123 0% , #df8123 50%, #2cd857 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header img {
+    width: 50px;
+    height: 50px;
+}
+/* @keyframes headerGlow {
+    from { text-shadow: 0 0 10px #28a745, 0 0 20px #ff7f00; }
+    to { text-shadow: 0 0 20px #ff7f00, 0 0 40px #28a745; }
+} */
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    transition: transform 0.3s, color 0.3s;
+}
+nav a:hover {
+    transform: scale(1.2);
+    color: #ff7f00;
+}
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.product {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product h3 {
+    margin: 10px 0;
+    color: #28a745;
+}
+.product p {
+    color: #ff7f00;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.tagline {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #ff7f00;
+}
+.description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.contact {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+form button {
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+form button:hover {
+    background: #ff7f00;
+}
