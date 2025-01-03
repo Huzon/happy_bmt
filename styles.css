@@ -1,38 +1,30 @@
-
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('file:///C:/Users/Hp/Documents/logo.img/flaring-oil-platform-rig-sea-black-white-gas-61156188.webp') no-repeat center center fixed;
+    background: url('./images/flaring-oil-platform-rig-sea-black-white-gas-61156188.webp') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
 header {
-    background: linear-gradient(180deg, #f6ece2 ,#c6efd0);
+    background: linear-gradient(90deg, #28a745, #ff7f00);
     padding: 20px;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    /* animation: headerGlow 3s infinite alternate; */
+    animation: headerGlow 3s infinite alternate;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-header h1{
-    font-size: 72px;
-  background: -webkit-linear-gradient( #df8123 0% , #df8123 50%, #2cd857 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 header img {
     width: 50px;
     height: 50px;
 }
-/* @keyframes headerGlow {
+@keyframes headerGlow {
     from { text-shadow: 0 0 10px #28a745, 0 0 20px #ff7f00; }
     to { text-shadow: 0 0 20px #ff7f00, 0 0 40px #28a745; }
-} */
+}
 nav {
     display: flex;
     justify-content: center;
@@ -57,19 +49,17 @@ nav a:hover {
     margin: 20px;
 }
 .product {
-    background: #f5f3f3;
+    background: rgba(0, 0, 0, 0.8);
     margin: 15px;
     padding: 15px;
     border-radius: 10px;
     width: 250px;
     text-align: center;
     animation: fadeIn 2s;
-    
 }
 .product img {
-    width: 100%;
     height: 200px;
-
+    width: 100%;
     border-radius: 10px;
 }
 .product h3 {
